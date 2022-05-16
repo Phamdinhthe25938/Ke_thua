@@ -21,10 +21,10 @@ public class Cylinder extends Circle{
         return super.getArea()*2*getHeight();
     }
 
-    @Override
-    public String toString() {
-        return "Cylinder{" +
-                "height=" + getHeight() +
-                super.toString()+'}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Cylinder{" +
+//                "height=" + getHeight() +
+//                super.toString()+'}';
+//    }
 }
